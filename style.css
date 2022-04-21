@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size:16px ;
+	font-weight: 400;
+	color: #0f2656;
+}
+/*Header Start*/
+header{
+	border-bottom: 2px solid #0f26561a;
+	padding: 20px;
+}
+.container{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	width: 10%;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 65%;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #0f2656;
+	padding: 0 25px;
+	display: inline-block;
+}
+.menu ul li:last-child a{
+	padding-right:0 ;
+}
+/*Header end*/
+/*banner start*/
+.banner{
+	padding: 30px 0;
+}
+.container2{
+	width: 65%;
+	margin: 0 auto;
+	
+}
+.b_text{
+	text-align: center; 
+}
+.b_text h1{
+	font-size: 50px;
+	color: #0f2656;
+	line-height: 65px;
+	margin: 25px 150px 15px;
+}
+.b_text h1 span{
+	color: #008aff;
+}
+.b_text p{
+	font-size: 16px;
+	line-height: 25px;
+    margin: 0 110px 25px;
+}
+.b_img{
+	width: 70%;
+    margin: 0 auto;
+}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*success start*/
+.success{
+	padding: 30px 0;
+}
+.s_content{
+	overflow: hidden;
+	padding: 0 17px;
+}
+.s_left{
+	width: 46%;
+	text-align: right;
+	float: left;
+	padding: 10px 18px;
+}
+.s_left h2{
+	 font-size: 40px;
+	 color: red;
+    margin: 0;
+    
+   
+}
+
+.s_right{
+	width: 46%;
+	float: right;
+	padding: 10px 18px;
+}
+.s_right h1{
+	font-size: 49px ;
+	margin: 0;
+}
+/*success end*/
+/*service start*/
+.service{
+	padding: 30px 0;
+}
+.service_wrap{
+	overflow: hidden;
+}
+/*Single start*/
+.one{
+	background-color: #FDEBED;
+}
+.two{
+	background-color: #EBF9F4;
+}
+.three{
+	background-color: #FFF7E8;
+}
+.s_single{
+	float: left;
+	width: 28.5%;
+	margin-right:23.5px ;
+	padding: 20px 16px;
+	
+	}
+	.s_single:last-child{
+		margin-right:0 ;
+	}
+.s_img{}
+.s_img img{
+	width: 100%;
+}
+.s_content{}
+.s_content h3{}
+.s_content p{}
+/*Single end*/
+
+/*service end*/
+/*footer start*/
+footer{
+	background-color: #008AFF;
+	padding: 10px 0;
+}
+.f_content{
+	font-size: 14px;
+	text-align: center;
+	
+}
+.f_content p{
+	color: #ffffff8f;
+}
+.f_content p span{
+	color: white;
+	letter-spacing: 3px;
+}
+/*footer end*/
